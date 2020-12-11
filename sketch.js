@@ -44,7 +44,7 @@ function setup() {
      'friction':2,
    }
    
-
+   ellipseMode(CENTER);
    polygon = Bodies.circle(50,200,5,options);
    World.add(world,polygon);
    sling = new slingShot(polygon,{x:100,y:300})
