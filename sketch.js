@@ -79,7 +79,7 @@ function draw() {
   rectMode(CENTER);
 
   background(56, 44, 44);
-
+  imageMode(CENTER);
   image(polygonimage,polygon.position.x,polygon.position.y,40,40)
 
   ground1.display();
